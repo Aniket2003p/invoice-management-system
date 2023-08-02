@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <style>
+        body{
+            background-image: url("signupimage.jpg");
+           
+            padding: 20px;
+            margin-left: 550px;
+        }
+        form{
+            padding: 25px;
+            width: 200px;
+        }
+        *{
+            margin: 0;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+
+        }
+        h2{
+            margin-left: 60px;
+        }
+        h1{
+            margin-right: 100px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: yellow; margin-right: 80px;" ></h1>
+   
+</body>
+<body>
+    
+    <h1 style="color:blueviolet;">Sign up</h1>
+    
+    <form action="signup_page.php" method="post">
+        <div>
+        <input type="text" name="first_name" id="first_name" autofocus required placeholder="First Name">
+        </div>
+        <div>
+            <input type="text" name="last_name" id="last_name" required placeholder="Last Name">
+        </div>
+        <div>
+            <input type="email" name="email" id="email" placeholder="Email address" required>
+         </div>
+         <div>
+            <input type="password" name="password" id="password" required placeholder="Password">
+        </div>
+        <div>
+            <input type="text" name="mobile"  id="mobile" placeholder="Mobile Number">
+
+        </div>
+        <div>
+            <input type="text" name="address" id="address" required placeholder="Address">
+        </div>
+        <br>
+        
+        <button>Submit</button>
+       
+    </form>
+    <div>
+        <p>Already Have an Account ? <a href="index.php">login</a></p>
+    </div>
+
+
+</body>
+</html>

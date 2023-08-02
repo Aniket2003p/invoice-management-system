@@ -1,0 +1,19 @@
+body{
+
+    background-image: url("bg.jpg");
+}
+
+    
+
+.login-form {
+   
+    width: 380px;
+    margin: 1% auto;
+    padding: 20px;
+	color:white;
+}
+.demo-heading {
+	width: 600px;
+    margin: 1% auto;
+    padding: 20px;
+}
